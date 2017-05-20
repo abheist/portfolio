@@ -124,7 +124,7 @@ body {
 	font-size: 20px;
 }
 
-.times-regular-16 {
+.times-regular-18 {
 	font-family: $times-roman;
 	font-weight: 400;
 	font-size: 18px;
@@ -174,4 +174,22 @@ body {
 
 .z-index-0 {
 	z-index: -10;
+}
+
+@media all and (max-width: 600px) {
+	.times-regular-50 {
+		font-size: 35px;
+	}
+
+	.my-name-underline {
+		width: 360px;
+	}
+
+	.times-regular-20 {
+		font-size: 16px;
+	}
+
+	.times-regular-18 {
+		font-size: 13px;
+	}
 }
