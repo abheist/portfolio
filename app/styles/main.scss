@@ -18,6 +18,10 @@ $times-roman: 'Times-Roman', sans-serif;
 	padding: 0;
 }
 
+.dark-cool-blue {
+	color: $dark-cool-blue;
+}
+
 body {
 	background: #ffffff;
 }
@@ -72,4 +76,102 @@ body {
 
 .italic {
 	font-style: italic;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.padding-10 {
+	padding: 10px;
+}
+
+.margin-10 {
+	margin: 10px;
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.padding-top-10 {
+	padding-top: 10px;
+}
+
+.margin-top-50 {
+	margin-top: 50px;
+}
+
+.times-regular-20 {
+	font-family: $times-roman;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.times-regular-16 {
+	font-family: $times-roman;
+	font-weight: 400;
+	font-size: 18px;
+}
+
+.times-regular-50 {
+	font-family: $times-roman;
+	font-weight: 400;
+	font-size: 50px;
+}
+
+.header-inner {
+}
+
+.primary-text-shadow {
+	text-shadow: 12px 15px 20px rgba(46, 61, 73, 0.50);
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-right {
+	justify-content: flex-end;
+}
+
+.align-right {
+	align-items: flex-end;
+}
+
+.my-name-underline {
+	width: 510px;
+	height: 23px;
+	background: $light-yellow;
+	margin-top: -25px;
+}
+
+.z-index-0 {
+	z-index: -10;
 }
