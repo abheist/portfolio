@@ -8,10 +8,11 @@ $dark-cool-blue: #3d464d;
 $greyish: #979797;
 $warning-red: #fd5632;
 $light-yellow: #fffc7d;
+$blueish: #1B7BFC;
 
 $roboto: 'Roboto', sans-serif;
 $lato: 'Lato', sans-serif;
-$times-roman: 'Times-Roman', sans-serif;
+$times-roman: 'Times', sans-serif;
 
 * {
 	margin: 0;
@@ -191,5 +192,40 @@ body {
 
 	.times-regular-18 {
 		font-size: 13px;
+	}
+}
+
+.z-index-2 {
+	z-index: 2;
+}
+
+@media all and (max-width: 400px) {
+	.margin-top-50 {
+		margin-top: 0;
+	}
+	.header {
+		padding: 20px;
+	}
+	.times-regular-50 {
+		font-size: 27px;
+	}
+
+	.my-name-underline {
+		width: 325px;
+		height: 15px;
+		margin-top: -15px;
+	}
+
+	.times-regular-20 {
+		font-size: 16px;
+	}
+
+	.times-regular-18 {
+		font-size: 13px;
+	}
+
+	.subheading {
+		margin-top: 20px;
+		text-align: center;
 	}
 }
