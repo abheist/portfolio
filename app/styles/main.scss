@@ -1,0 +1,75 @@
+// bower:scss
+// endbower
+
+$black: #000000;
+$yellowish: #ffff00;
+$white: #ffffff;
+$dark-cool-blue: #3d464d;
+$greyish: #979797;
+$warning-red: #fd5632;
+$light-yellow: #fffc7d;
+
+$roboto: 'Roboto', sans-serif;
+$lato: 'Lato', sans-serif;
+$times-roman: 'Times-Roman', sans-serif;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #ffffff;
+}
+
+.roboto {
+	font-family: $roboto;
+}
+
+.lato {
+	font-family: $lato;
+}
+
+.times {
+	font-family: $times-roman;
+}
+
+.weight-100 {
+	font-weight: 100;
+}
+
+.weight-200 {
+	font-weight: 200;
+}
+
+.weight-300 {
+	font-weight: 300;
+}
+
+.weight-400 {
+	font-weight: 400;
+}
+
+.weight-500 {
+	font-weight: 500;
+}
+
+.weight-600 {
+	font-weight: 600;
+}
+
+.weight-700 {
+	font-weight: 700;
+}
+
+.weight-800 {
+	font-weight: 800;
+}
+
+.weight-900 {
+	font-weight: 900;
+}
+
+.italic {
+	font-style: italic;
+}
