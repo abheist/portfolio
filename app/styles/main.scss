@@ -269,3 +269,45 @@ body {
 .primary-shadow {
 	box-shadow: 12px 15px 20px rgba(46, 61, 73, 0.25);
 }
+
+.golden-outer {
+	display: flex;
+	flex-direction: row;
+}
+
+.golden-forth {
+	display: flex;
+	flex-direction: row;
+}
+
+.golden-seventh {
+	margin-top: 40px;
+}
+
+@media all and (max-width: 1200px) {
+	.golden-outer {
+		flex-direction: column;
+	}
+	.golden-second {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.golden-third {
+		order: 3;
+	}
+
+	.golden-forth {
+		flex-direction: column;
+		order: 2;
+	}
+
+	.golden-fifth {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.golden-seventh {
+		margin-top: 20px;
+	}
+}
