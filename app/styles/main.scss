@@ -311,3 +311,22 @@ body {
 		margin-top: 20px;
 	}
 }
+
+@media all and (max-width: 860px) {
+	.box-660 {
+		height: 380px;
+		width: 380px;
+	}
+	.golden-second {
+		flex-direction: column;
+	}
+	.golden-third {
+		order: 1;
+	}
+	.golden-forth {
+		flex-direction: row;
+	}
+	.golden-fifth {
+		flex-direction: column;
+	}
+}
