@@ -25,6 +25,7 @@ $times-roman: 'Times', sans-serif;
 
 body {
 	background: #ffffff;
+	min-width: 360px;
 }
 
 .roboto {
@@ -328,5 +329,22 @@ body {
 	}
 	.golden-fifth {
 		flex-direction: column;
+	}
+}
+
+@media all and (max-width: 440px) {
+	.box-660 {
+		width: 240px;
+		height: 240px;
+	}
+	.box-380 {
+		width: 240px;
+		height: 240px;
+	}
+	.golden-forth {
+		flex-direction: column;
+	}
+	.golden-fifth {
+		flex-direction: row;
 	}
 }
