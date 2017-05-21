@@ -268,7 +268,16 @@ body {
 }
 
 .primary-shadow {
-	box-shadow: 12px 15px 20px rgba(46, 61, 73, 0.25);
+	box-shadow: 12px 15px 20px rgba(46, 61, 73, 0.50);
+	transition: all .3s ease;
+}
+
+.transition-3 {
+	transition: all .6s ease;
+}
+
+.primary-shadow:hover {
+	box-shadow: 2px 4px 8px 0 rgba(46, 61, 73, .2)
 }
 
 .golden-outer {
